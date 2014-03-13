@@ -189,8 +189,9 @@ function pivot(word){
             bit = bit * -1;
         }
 
-        var start = word.slice(0, word.length/2);
-        var end = word.slice(word.length/2, word.length);
+        var wordHalf = word.length*.5;
+        var start = word.slice(0, wordHalf);
+        var end = word.slice(wordHalf, word.length);
         // Remove redundant if/else
 
         var result;
@@ -207,8 +208,9 @@ function pivot(word){
         var tail = 22 - (word.length + 7);
         word = '.......' + word + ('.'.repeat(tail));
 
-        var start = word.slice(0, word.length/2);
-        var end = word.slice(word.length/2, word.length);
+        var wordHalf = word.length*.5;
+        var start = word.slice(0, wordHalf);
+        var end = word.slice(wordHalf, word.length);
 
         var result;
         result = "<span class='spritz_start'>" + start.slice(0, start.length -1);
