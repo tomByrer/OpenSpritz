@@ -205,7 +205,7 @@ function pivot(word){
 
     else{
 
-        var tail = length - 15;
+        var tail = 15 - length;
         word = '.......' + word + ('.'.repeat(tail));
 
         var wordHalf = word.length*.5;
