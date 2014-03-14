@@ -5,61 +5,59 @@ body{
 #spritz_holder{
     width: 100%;
     box-shadow: 2px 2px 4px rgba(0, 0, 0, .2);
-    padding-top: 12px;
-    padding-bottom: 12px;
-    margin-bottom: 12px;
-    background-color: #fff;
-    min-height: 166px;
+    background-color: #ffffff;
     position: fixed;
     top: 0;
     left: 0;
     z-index: 99999999999999999;
+    /* 600px+; small tablet portrait */
+    padding-top: 12px;
+    padding-bottom: 12px;
+    margin-bottom: 12px;
+    min-height: 166px;
 }
 
 #spritz_spacer{
     width: 100%;
+		/* 600px+; small tablet portrait */
     min-height: 210px;
 }
 
 #spritz_container{
+    background-color: #ffffff;
+    /* 600px+; small tablet portrait */
     width: 50%;
     margin-left: 25%;
     margin-right: 25%;
-    background-color: #ffffff;
     line-height: 43px;
-
 }
 
 #spritz_result{
     text-align: center;
-    font-size: 32px;
     font-family: 'Droid Sans Mono', sans-serif;
     padding-top: 9px;
     padding-bottom: 9px;
+    /* 600px+; small tablet portrait */
     min-height: 40px;
+    font-size: 32px;
 }
 
-#guide_top{
+#guide_top, #guide_bottom{
     text-align: center;
-    font-size: 32px;
     font-family: 'Droid Sans Mono', sans-serif;
     color: #DDDDDD;
-}
-
-#guide_bottom{
-    text-align: center;
+    /* 600px+; small tablet portrait */
     font-size: 32px;
-    font-family: 'Droid Sans Mono', sans-serif;
-    color: #DDDDDD;
 }
 
 #notch{
     text-align: center;
-    font-size: 32px;
     font-family: 'Droid Sans Mono', sans-serif;
     color: #DDDDDD;    
     margin-top: 9px;
+    /* 600px+; small tablet portrait */
     padding-top: 12px;
+    font-size: 32px;
 }
 
 #spritz_credits{
@@ -73,14 +71,9 @@ body{
     text-decoration: none;
 }
 
-#spritz_selector{
+#spritz_selector, #spritz_toggle{
     float: left;
     width: auto;
-}
-
-#spritz_toggle{
-    float: left;
-    width: auto;   
 }
 
 .invisible{
@@ -88,40 +81,13 @@ body{
     color: #ffffff;
 }
 
-.start{
+.start, .pivot, .end, .spritz_start, .spritz_pivot, .spritz_end{
     color: #333333;
     text-align: center;
-    font-size: 32px;
     font-family: 'Droid Sans Mono', sans-serif;
+    /* 600px+; small tablet portrait */
+    font-size: 32px;
 }
-.pivot{
+.pivot, .spritz_pivot{
     color: #DE0000;
-    text-align: center;
-    font-size: 32px;
-    font-family: 'Droid Sans Mono', sans-serif;
-}
-.end{
-    color: #333333;
-    text-align: center;
-    font-size: 32px;
-    font-family: 'Droid Sans Mono', sans-serif;
-}
-
-.spritz_start{
-    color: #333333;
-    text-align: center;
-    font-size: 32px;
-    font-family: 'Droid Sans Mono', sans-serif;
-}
-.spritz_pivot{
-    color: #DE0000;
-    text-align: center;
-    font-size: 32px;
-    font-family: 'Droid Sans Mono', sans-serif;
-}
-.spritz_end{
-    color: #333333;
-    text-align: center;
-    font-size: 32px;
-    font-family: 'Droid Sans Mono', sans-serif;
 }
