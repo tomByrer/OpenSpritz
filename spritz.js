@@ -317,9 +317,9 @@ function clearTimeouts(){
     String.prototype.repeat = function( num ){
         
         // Implementation based on ECMA 6 Draft
-        num = (+num > 0 ? 1 : -1) * Math.floor(Math.abs(num));
+//        num = (+num > 0 ? 1 : -1) * Math.floor(Math.abs(num));
         if(isNaN(num)) num = 0;
-        if(!isFinite(num) || num < 0) throw new RangeError();
+//        if(!isFinite(num) || num < 0) throw new RangeError();
         var res = '', str = this.toString();
         while (num > 0) {
             if (num & 1) {
