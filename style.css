@@ -27,8 +27,8 @@ body{
     background-color: #ffffff;
     /* 600px+; small tablet portrait */
     width: 50%;
-    margin-left: 25%;
-    margin-right: 25%;
+    margin-left: auto;
+    margin-right: auto;
     line-height: 43px;
 }
 
@@ -45,7 +45,7 @@ body{
 #guide_top, #guide_bottom{
     text-align: center;
     font-family: 'Droid Sans Mono', sans-serif;
-    color: #DDDDDD;
+    color: #dddddd;
     /* 600px+; small tablet portrait */
     font-size: 32px;
 }
@@ -53,7 +53,7 @@ body{
 #notch{
     text-align: center;
     font-family: 'Droid Sans Mono', sans-serif;
-    color: #DDDDDD;    
+    color: #dddddd;    
     margin-top: 9px;
     /* 600px+; small tablet portrait */
     padding-top: 12px;
@@ -89,5 +89,5 @@ body{
     font-size: 32px;
 }
 .pivot, .spritz_pivot{
-    color: #DE0000;
+    color: #de0000;
 }
