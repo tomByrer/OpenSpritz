@@ -20,7 +20,7 @@ body{
 
 #spritz_spacer{
     width: 100%;
-		/* 600px+; small tablet portrait */
+    /* 600px+; small tablet portrait */
     min-height: 210px;
 }
 
@@ -64,6 +64,7 @@ body{
 #spritz_credits{
     float: right;
     font-family: 'Droid Sans Mono', sans-serif;
+    /* 600px+; small tablet portrait */
     font-size: 13px;
 }
 
@@ -95,41 +96,45 @@ body{
 
 @media (max-width: 599px) {
 
-#spritz_holder{
-    width: 320
-    padding-top: 6px;
-    padding-bottom: 6px;
-    margin-bottom: 6px;
-    min-height: 83px;
-}
+    #spritz_holder{
+        width: 320
+        padding-top: 6px;
+        padding-bottom: 6px;
+        margin-bottom: 6px;
+        min-height: 83px;
+    }
 
-#spritz_spacer{
-    min-height: 105px;
-}
+    #spritz_spacer{
+        min-height: 105px;
+    }
 
-#spritz_container{
-    width: 320px;
-    margin-left: auto;
-    margin-right: auto;
-    line-height: 21px;
-}
+    #spritz_container{
+        width: 320px;
+        margin-left: auto;
+        margin-right: auto;
+        line-height: 21px;
+    }
 
-#spritz_result{
-    min-height: 20px;
-    font-size: 18px;
-}
+    #spritz_result{
+        min-height: 20px;
+        font-size: 18px;
+    }
 
-#guide_top, #guide_bottom{
-    font-size: 18px;
-}
+    #guide_top, #guide_bottom{
+        font-size: 18px;
+    }
 
-#notch{
-    padding-top: 6px;
-    font-size: 18px;
-}
+    #notch{
+        padding-top: 6px;
+        font-size: 18px;
+    }
 
-.start, .pivot, .end, .spritz_start, .spritz_pivot, .spritz_end{
-    font-size: 18px;
-}
+    #spritz_credits{
+        font-size: 11px;
+    }
+
+    .start, .pivot, .end, .spritz_start, .spritz_pivot, .spritz_end{
+        font-size: 18px;
+    }
 
 }
