@@ -317,10 +317,8 @@ function clearTimeouts(){
     String.prototype.repeat = function( num ){
         
         // Implementation based on ECMA 6 Draft
-//        num = (+num > 0 ? 1 : -1) * Math.floor(Math.abs(num));
-        if(isNaN(num)) num = 0;
-//        if(!isFinite(num) || num < 0) throw new RangeError();
         var res = '', str = this.toString();
+        n |= 0;  // force to Int; http://jsperf.com/repeat-string-n-times/2
         while (num > 0) {
             if (num & 1) {
                 res += str;
