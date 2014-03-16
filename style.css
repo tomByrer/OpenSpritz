@@ -36,9 +36,9 @@ body{
 #spritz_result{
     text-align: center;
     font-family: 'Droid Sans Mono', sans-serif;
-    padding-top: 9px;
     padding-bottom: 9px;
     /* 600px+; small tablet portrait */
+    padding-top: 9px;
     min-height: 40px;
     font-size: 32px;
 }
@@ -118,7 +118,7 @@ body{
     #spritz_result{
         min-height: 22px;
         font-size: 22px;
-				margin-top: 3px;
+        padding-top: 12px;
     }
 
     #guide_top, #guide_bottom{
@@ -126,7 +126,7 @@ body{
     }
 
     #notch{
-        padding-top: 4px;
+        margin-top: 6px;
         font-size: 22px;
     }
 
