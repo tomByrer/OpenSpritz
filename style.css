@@ -117,24 +117,24 @@ body{
 
     #spritz_result{
         min-height: 20px;
-        font-size: 18px;
+        font-size: 20px;
     }
 
     #guide_top, #guide_bottom{
-        font-size: 18px;
+        font-size: 20px;
     }
 
     #notch{
         padding-top: 6px;
-        font-size: 18px;
+        font-size: 20px;
     }
 
     #spritz_credits{
-        font-size: 11px;
+        font-size: 10px;
     }
 
     .start, .pivot, .end, .spritz_start, .spritz_pivot, .spritz_end{
-        font-size: 18px;
+        font-size: 20px;
     }
 
 }
