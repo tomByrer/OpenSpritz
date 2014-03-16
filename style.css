@@ -101,7 +101,7 @@ body{
         padding-top: 6px;
         padding-bottom: 6px;
         margin-bottom: 6px;
-        min-height: 78px;
+        min-height: 74px;
     }
 
     #spritz_spacer{
@@ -116,7 +116,7 @@ body{
     }
 
     #spritz_result{
-        min-height: 22px;
+        min-height: 24px;
         font-size: 22px;
     }
 
